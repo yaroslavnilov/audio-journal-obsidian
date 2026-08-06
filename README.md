@@ -1,6 +1,6 @@
 # Audio Journal to Obsidian (Whisper + Ollama)
 
-Автоматический пайплайн для превращения нескольких голосых заметок за день в один структурированный, отредактированный файл дневника в формате **Obsidian Markdown**.
+Автоматический пайплайн для превращения нескольких голосовых заметок за день в один структурированный, отредактированный файл дневника в формате **Obsidian Markdown**.
 
 ## 🛠 Технологии
 * **[faster-whisper](https://github.com/SYSTRAN/faster-whisper)** — локальное распознавание аудио (Faster Whisper `medium` / CPU `int8`).
@@ -21,14 +21,14 @@
 Клонируйте репозиторий и установите зависимости:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-cd YOUR_REPOSITORY_NAME
+git clone [https://github.com/yaroslavnilov/audio-journal-obsidian.git](https://github.com/yaroslavnilov/audio-journal-obsidian.git)
+cd audio-journal-obsidian
 
 python -m venv venv
-source venv/bin/activate  # На Linux/macOS
-# venv\Scripts\activate   # На Windows
+# venv\Scripts\activate     # На Windows
+# source venv/bin/activate  # На Linux/macOS
 
-pip install faster-whisper openai
+pip install -r requirements.txt
 
 ```
 
