@@ -1,0 +1,14 @@
+# Входные и выходные данные (чтобы не заливать личные аудио и дневники)
+audio_input/
+processed_text/
+
+# Python / Виртуальное окружение
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
