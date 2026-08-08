@@ -38,7 +38,7 @@ An automated, **100% local and privacy-first** pipeline that turns multiple raw 
 Clone the repository and set up the environment:
 
 ```bash
-git clone [https://github.com/yaroslavnilov/audio-journal-obsidian.git](https://github.com/yaroslavnilov/audio-journal-obsidian.git)
+git clone https://github.com/yaroslavnilov/audio-journal-obsidian.git
 cd audio-journal-obsidian
 
 # Create virtual environment
